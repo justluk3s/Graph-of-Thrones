@@ -1,0 +1,1067 @@
+@prefix : <http://gameofthrones.org#> .
+
+:relationships {
+    :Brynden_Tully :siblingOf :Hoster_Tully .
+
+    :Dongo_the_Giant :killedBy :Night_s_Watchman .
+
+    :Eddison_Tollett :killedBy :Wight .
+
+    :Gared :killedBy :White_Walker .
+
+    :Gendry :childOf :Robert_Baratheon ;
+        :killed :Kevin_Eldon,
+            :Laurence_Spellman .
+
+    :Grand_Maester_Pycelle :killedBy :Little_Birds .
+
+    :Greizhen_mo_Ullhor :killedBy :Unsullied .
+
+    :High_Septon :killedBy :Kings_Landing_Rioters .
+
+    :Hizdahr_zo_Loraq :killedBy :Sons_of_the_Harpy .
+
+    :Jafer_Flowers :killedBy :White_Walker .
+
+    :Karsi :killedBy :Pack_of_Wights ;
+        :parentOf :Johnna,
+            :Willa .
+
+    :Kegs :killedBy :Wildling .
+
+    :King_s_Landing_Rioter_1 :killedBy :Sandor_Clegane .
+
+    :King_s_Landing_Rioter_2 :killedBy :Sandor_Clegane .
+
+    :King_s_Landing_Rioter_3 :killedBy :Sandor_Clegane .
+
+    :Kurleket :killedBy :Mountain_Clansman .
+
+    :Leaf :killedBy :Wights .
+
+    :Maester_Aemon :killedBy :Old_Age .
+
+    :Rakharo :killedBy :Khal_Jhaqo_s_Khalasar .
+
+    :Robin_Arryn :childOf :Jon_Arryn,
+            :Lysa_Arryn .
+
+    :Septa_Mordane :killedBy :Lannister_Guardsman .
+
+    :Varly :killedBy :Goldcloak .
+
+    :Willis_Wode :killedBy :Mountain_Clansman .
+
+    :Akho :killedBy :Daario_Naharis .
+
+    :Alton_Lannister :killedBy :Jaime_Lannister .
+
+    :Alys_Karstark :childOf :Harald_Karstark .
+
+    :Areo_Hotah :killedBy :Tyene_Sand ;
+        :serves :Doran_Martell .
+
+    :Barristan_Selmy :killedBy :Sons_of_the_Harpy ;
+        :serves :Daenerys_Targaryen .
+
+    :Beric_Dondarrion :killedBy :Sandor_Clegane,
+            :Wights .
+
+    :Biter :killedBy :Sandor_Clegane .
+
+    :Brother_Ray :killedBy :Lem_Lemoncloak .
+
+    :Catspaw_Assassin :killedBy :Summer .
+
+    :Davos_Seaworth :parentOf :Matthos_Seaworth ;
+        :serves :Jon_Snow,
+            :Stannis_Baratheon .
+
+    :Dontos_Hollard :killedBy :Petyr_Baelish .
+
+    :Dothraki_Bloodrider_1 :killedBy :Daenerys_Targaryen .
+
+    :Dothraki_Bloodrider_2 :killedBy :Daenerys_Targaryen .
+
+    :Drennan :killedBy :Osha .
+
+    :Gatins :killedBy :Sandor_Clegane .
+
+    :Gerold_Hightower :killedBy :Eddard_Stark .
+
+    :Greatjon_Umber :parentOf :Smalljon_Umber .
+
+    :Harry_Strickland :killedBy :Grey_Worm .
+
+    :High_Sparrow :killedBy :Cersei_Lannister .
+
+    :Hodor :killed :Locke ;
+        :killedBy :Wights .
+
+    :Hugh_of_the_Vale :killedBy :Gregor_Clegane .
+
+    :Ilyn_Payne :killed :Eddard_Stark .
+
+    :Irri :killedBy :Doreah .
+
+    :Janos_Slynt :killed :Barra ;
+        :killedBy :Jon_Snow .
+
+    :Jory_Cassel :killedBy :Jaime_Lannister ;
+        :serves :Eddard_Stark .
+
+    :Khal_Moro :killedBy :Daenerys_Targaryen .
+
+    :Khal_Rhalko :killedBy :Daenerys_Targaryen .
+
+    :Kitty_Frey :marriedOrEngagedTo :Walder_Frey .
+
+    :Kraznys_mo_Nakloz :killedBy :Drogon .
+
+    :Lady_Crane :killedBy :The_Waif .
+
+    :Lead_Dornish_Guard :killedBy :Bronn .
+
+    :Loboda :killedBy :White_Walker .
+
+    :Locke :killedBy :Hodor .
+
+    :Lollys_Stokeworth :marriedOrEngagedTo :Bronn .
+
+    :Lommy_Greenhands :killedBy :Polliver .
+
+    :Lord_Varys :killedBy :Daenerys_Targaryen .
+
+    :Maester_Luwin :killedBy :Osha .
+
+    :Mago :killedBy :Khal_Drogo .
+
+    :Mandon_Moore :killedBy :Podrick_Payne .
+
+    :Merchant_Captain :killedBy :Obara_Sand .
+
+    :Mero :killedBy :Daario_Naharis .
+
+    :Mossador :killed :Son_of_the_Harpy ;
+        :killedBy :Daario_Naharis .
+
+    :Mycah :killedBy :Sandor_Clegane .
+
+    :Myranda :killedBy :Theon_Greyjoy .
+
+    :Ned_Umber :killedBy :The_Night_King .
+
+    :Orell :killedBy :Jon_Snow .
+
+    :Othor :killedBy :Jon_Snow,
+            :White_Walker .
+
+    :Prendahl_na_Ghezn :killedBy :Daario_Naharis .
+
+    :Pypar :killedBy :Ygritte .
+
+    :Qhorin_Halfhand :killedBy :Jon_Snow .
+
+    :Qotho :killedBy :Jorah_Mormont .
+
+    :Qyburn :killedBy :Gregor_Clegane ;
+        :serves :Cersei_Lannister .
+
+    :Rattleshirt :killedBy :Tormund_Giantsbane .
+
+    :Razdal_mo_Eraz :killedBy :Grey_Worm .
+
+    :Red_Keep_Stableboy :killedBy :Arya_Stark .
+
+    :Rodrik_Cassel :killedBy :Theon_Greyjoy ;
+        :serves :Eddard_Stark .
+
+    :Rorge :killedBy :Arya_Stark .
+
+    :Ros :killedBy :Joffrey_Baratheon .
+
+    :Ryger_Rivers :childOf :Walder_Frey .
+
+    :Shae :killedBy :Tyrion_Lannister .
+
+    :Silk_King :killedBy :Pyat_Pree .
+
+    :Spice_King :killedBy :Pyat_Pree .
+
+    :Stiv :killedBy :Theon_Greyjoy .
+
+    :Styr :killed :Olly_s_Mother ;
+        :killedBy :Jon_Snow .
+
+    :Syrio_Forel :killedBy :Meryn_Trant .
+
+    :The_Tickler :killed :Tortured_Prisoner ;
+        :killedBy :Jaqen_H_ghar .
+
+    :Thenn_Warg :killedBy :Samwell_Tarly .
+
+    :Three_Eyed_Raven :killedBy :The_Night_King .
+
+    :Vardis_Egen :killedBy :Bronn .
+
+    :Walda_Bolton :killedBy :Ramsay_Snow_s_Hounds ;
+        :marriedOrEngagedTo :Roose_Bolton .
+
+    :Wallen :killedBy :Robb_Stark .
+
+    :Waymar_Royce :childOf :Yohn_Royce ;
+        :killedBy :White_Walker .
+
+    :Will :killedBy :Eddard_Stark .
+
+    :Xaro_Xhoan_Daxos :killedBy :Daenerys_Targaryen .
+
+    :Yohn_Royce :parentOf :Waymar_Royce .
+
+    :Yoren :killedBy :Amory_Lorch .
+
+    :Aeron_Greyjoy :siblingOf :Balon_Greyjoy,
+            :Euron_Greyjoy .
+
+    :Alliser_Thorne :killed :Jon_Snow ;
+        :killedBy :Jon_Snow .
+
+    :Amory_Lorch :killed :Yoren ;
+        :killedBy :Jaqen_H_ghar .
+
+    :Baby_Sam :childOf :Gilly,
+            :Samwell_Tarly .
+
+    :Bowen_Marsh :killed :Jon_Snow ;
+        :killedBy :Jon_Snow .
+
+    :Brienne_of_Tarth :killed :Bolton_Officer,
+            :Soldier_Tom,
+            :Stannis_Baratheon ;
+        :servedBy :Podrick_Payne ;
+        :serves :Bran_Stark,
+            :Catelyn_Stark,
+            :Renly_Baratheon,
+            :Sansa_Stark .
+
+    :Craster :killedBy :Karl_Tanner .
+
+    :Doreah :killed :Irri ;
+        :killedBy :Daenerys_Targaryen .
+
+    :Gilly :childOf :Craster ;
+        :marriedOrEngagedTo :Samwell_Tarly ;
+        :parentOf :Baby_Sam .
+
+    :Great_Master_1 :killedBy :Rebel_Slaves,
+            :Rhaegal,
+            :Viserion .
+
+    :Grenn :killed :Mag_the_Mighty ;
+        :killedBy :Mag_the_Mighty .
+
+    :Harald_Karstark :childOf :Rickard_Karstark ;
+        :parentOf :Alys_Karstark .
+
+    :Jaqen_H_ghar :killed :Amory_Lorch,
+            :Despondent_Man,
+            :The_Tickler .
+
+    :Jeor_Mormont :killedBy :Rast ;
+        :parentOf :Jorah_Mormont .
+
+    :Jojen_Reed :childOf :Howland_Reed ;
+        :killedBy :Meera_Reed ;
+        :siblingOf :Meera_Reed .
+
+    :Joyeuse_Erenford :killedBy :Catelyn_Stark ;
+        :marriedOrEngagedTo :Walder_Frey .
+
+    :Karl_Tanner :killed :Craster ;
+        :killedBy :Jon_Snow .
+
+    :Lem_Lemoncloak :killed :Brother_Ray ;
+        :killedBy :Sandor_Clegane .
+
+    :Lyanna_Mormont :killed :Wun_Wun ;
+        :killedBy :Wun_Wun .
+
+    :Maester_Cressen :killed :Maester_Cressen ;
+        :killedBy :Maester_Cressen .
+
+    :Mag_the_Mighty :killed :Cooper,
+            :Donnel_Hill,
+            :Grenn ;
+        :killedBy :Cooper,
+            :Donnel_Hill,
+            :Grenn .
+
+    :Mance_Rayder :killedBy :Jon_Snow,
+            :Melisandre .
+
+    :Matthos_Seaworth :childOf :Davos_Seaworth ;
+        :killedBy :Bronn .
+
+    :Meryn_Trant :killed :Syrio_Forel ;
+        :killedBy :Arya_Stark .
+
+    :Mirri_Maz_Duur :killed :Rhaego ;
+        :killedBy :Daenerys_Targaryen .
+
+    :Missandei :killedBy :Gregor_Clegane ;
+        :serves :Daenerys_Targaryen .
+
+    :Nymeria_Sand :childOf :Oberyn_Martell ;
+        :killedBy :Euron_Greyjoy .
+
+    :Olenna_Tyrell :killed :Joffrey_Baratheon ;
+        :killedBy :Jaime_Lannister ;
+        :parentOf :Mace_Tyrell .
+
+    :Othell_Yarwyck :killed :Jon_Snow ;
+        :killedBy :Jon_Snow .
+
+    :Podrick_Payne :killed :Bolton_Soldier,
+            :Mandon_Moore ;
+        :serves :Bran_Stark,
+            :Brienne_of_Tarth,
+            :Tyrion_Lannister .
+
+    :Polliver :killed :Lommy_Greenhands ;
+        :killedBy :Arya_Stark .
+
+    :Rast :killed :Jeor_Mormont ;
+        :killedBy :Ghost .
+
+    :Talisa_Maegyr :killedBy :Lothar_Frey ;
+        :marriedOrEngagedTo :Robb_Stark .
+
+    :The_Waif :killed :Lady_Crane ;
+        :killedBy :Arya_Stark .
+
+    :Tormund_Giantsbane :killed :Rattleshirt,
+            :Smalljon_Umber .
+
+    :Yara_Greyjoy :childOf :Balon_Greyjoy ;
+        :siblingOf :Theon_Greyjoy .
+
+    :Aegon_Targaryen :childOf :Elia_Martell,
+            :Rhaegar_Targaryen ;
+        :killedBy :Gregor_Clegane ;
+        :siblingOf :Jon_Snow,
+            :Rhaenys_Targaryen .
+
+    :Arthur_Dayne :killedBy :Eddard_Stark,
+            :Howland_Reed ;
+        :serves :Aerys_II_Targaryen .
+
+    :Black_Walder_Rivers :childOf :Walder_Frey ;
+        :killed :Catelyn_Stark ;
+        :killedBy :Arya_Stark .
+
+    :Edmure_Tully :marriedOrEngagedTo :Roslin_Frey ;
+        :siblingOf :Catelyn_Stark,
+            :Lysa_Arryn .
+
+    :Grey_Worm :killed :Belicho_Paenymion,
+            :Harry_Strickland,
+            :Razdal_mo_Eraz ;
+        :serves :Daenerys_Targaryen .
+
+    :Howland_Reed :killed :Arthur_Dayne ;
+        :parentOf :Jojen_Reed,
+            :Meera_Reed .
+
+    :Jorah_Mormont :childOf :Jeor_Mormont ;
+        :killed :Meereenese_Champion,
+            :Norvoshi_Pit_Fighter,
+            :Qotho ;
+        :killedBy :Wights ;
+        :serves :Daenerys_Targaryen .
+
+    :Loras_Tyrell :childOf :Mace_Tyrell ;
+        :killedBy :Cersei_Lannister ;
+        :siblingOf :Margaery_Tyrell .
+
+    :Lothar_Frey :childOf :Walder_Frey ;
+        :killed :Talisa_Maegyr ;
+        :killedBy :Arya_Stark .
+
+    :Meera_Reed :childOf :Howland_Reed ;
+        :killed :Jojen_Reed,
+            :White_Walker .
+
+    :Melisandre :killed :Axell_Florent,
+            :Mance_Rayder,
+            :Renly_Baratheon,
+            :Shireen_Baratheon ;
+        :killedBy :Old_Age .
+
+    :Olly :killed :Jon_Snow,
+            :Ygritte ;
+        :killedBy :Jon_Snow .
+
+    :Osha :killed :Drennan,
+            :Maester_Luwin ;
+        :killedBy :Ramsay_Snow .
+
+    :Rhaego :childOf :Daenerys_Targaryen,
+            :Khal_Drogo ;
+        :killedBy :Mirri_Maz_Duur .
+
+    :Roslin_Frey :childOf :Walder_Frey ;
+        :marriedOrEngagedTo :Edmure_Tully,
+            :Robb_Stark .
+
+    :Shireen_Baratheon :childOf :Selyse_Baratheon,
+            :Stannis_Baratheon ;
+        :killedBy :Melisandre .
+
+    :Smalljon_Umber :childOf :Greatjon_Umber ;
+        :killed :Shaggydog ;
+        :killedBy :Tormund_Giantsbane .
+
+    :Trystane_Martell :childOf :Doran_Martell ;
+        :killedBy :Obara_Sand ;
+        :marriedOrEngagedTo :Myrcella_Baratheon .
+
+    :Wun_Wun :killed :Lyanna_Mormont ;
+        :killedBy :Lyanna_Mormont,
+            :Ramsay_Snow .
+
+    :Ygritte :killed :Guymon,
+            :Mole_s_Town_Whore,
+            :Old_Man,
+            :Pypar ;
+        :killedBy :Olly ;
+        :marriedOrEngagedTo :Jon_Snow .
+
+    :Benjen_Stark :childOf :Rickard_Stark ;
+        :killedBy :Wights ;
+        :siblingOf :Brandon_Stark,
+            :Eddard_Stark,
+            :Lyanna_Stark .
+
+    :Bronn :killed :Lead_Dornish_Guard,
+            :Matthos_Seaworth,
+            :Vardis_Egen ;
+        :marriedOrEngagedTo :Lollys_Stokeworth .
+
+    :Ellaria_Sand :killed :Doran_Martell,
+            :Myrcella_Baratheon ;
+        :marriedOrEngagedTo :Oberyn_Martell ;
+        :parentOf :Tyene_Sand .
+
+    :Jon_Arryn :guardianOf :Eddard_Stark,
+            :Robert_Baratheon ;
+        :killedBy :Lysa_Arryn .
+
+    :Kevan_Lannister :killedBy :Cersei_Lannister ;
+        :parentOf :Lancel_Lannister,
+            :Martyn_Lannister,
+            :Willem_Lannister ;
+        :siblingOf :Tywin_Lannister .
+
+    :Lancel_Lannister :childOf :Kevan_Lannister ;
+        :killedBy :Cersei_Lannister ;
+        :siblingOf :Martyn_Lannister,
+            :Willem_Lannister .
+
+    :Mace_Tyrell :killedBy :Cersei_Lannister ;
+        :parentOf :Loras_Tyrell,
+            :Margaery_Tyrell .
+
+    :Martyn_Lannister :childOf :Kevan_Lannister ;
+        :killedBy :Rickard_Karstark ;
+        :siblingOf :Lancel_Lannister,
+            :Willem_Lannister .
+
+    :Melessa_Tarly :marriedOrEngagedTo :Randyll_Tarly ;
+        :parentOf :Dickon_Tarly,
+            :Samwell_Tarly,
+            :Talla_Tarly .
+
+    :Obara_Sand :childOf :Oberyn_Martell ;
+        :killed :Merchant_Captain,
+            :Trystane_Martell ;
+        :killedBy :Euron_Greyjoy .
+
+    :Rhaenys_Targaryen :childOf :Elia_Martell,
+            :Rhaegar_Targaryen ;
+        :killedBy :Gregor_Clegane .
+
+    :Rickard_Karstark :killed :Martyn_Lannister,
+            :Willem_Lannister ;
+        :killedBy :Robb_Stark ;
+        :parentOf :Harald_Karstark .
+
+    :Roose_Bolton :killed :Robb_Stark ;
+        :killedBy :Ramsay_Snow ;
+        :marriedOrEngagedTo :Walda_Bolton ;
+        :parentOf :Ramsay_Snow .
+
+    :Selyse_Baratheon :killed :Selyse_Baratheon ;
+        :killedBy :Selyse_Baratheon ;
+        :marriedOrEngagedTo :Stannis_Baratheon ;
+        :parentOf :Shireen_Baratheon .
+
+    :Talla_Tarly :childOf :Melessa_Tarly,
+            :Randyll_Tarly ;
+        :siblingOf :Dickon_Tarly,
+            :Samwell_Tarly .
+
+    :Tyene_Sand :childOf :Ellaria_Sand,
+            :Oberyn_Martell ;
+        :killed :Areo_Hotah,
+            :Maester_Caleotte ;
+        :killedBy :Cersei_Lannister .
+
+    :Willem_Lannister :childOf :Kevan_Lannister ;
+        :killedBy :Rickard_Karstark ;
+        :siblingOf :Lancel_Lannister,
+            :Martyn_Lannister .
+
+    :Balon_Greyjoy :killedBy :Euron_Greyjoy ;
+        :parentOf :Theon_Greyjoy,
+            :Yara_Greyjoy ;
+        :siblingOf :Aeron_Greyjoy,
+            :Euron_Greyjoy .
+
+    :Daario_Naharis :killed :Akho,
+            :Iggo,
+            :Mero,
+            :Mossador,
+            :Oznak_zo_Pahl,
+            :Prendahl_na_Ghezn ;
+        :serves :Daenerys_Targaryen .
+
+    :Dickon_Tarly :childOf :Melessa_Tarly,
+            :Randyll_Tarly ;
+        :killedBy :Daenerys_Targaryen ;
+        :siblingOf :Samwell_Tarly,
+            :Talla_Tarly .
+
+    :Doran_Martell :killedBy :Ellaria_Sand ;
+        :parentOf :Trystane_Martell ;
+        :siblingOf :Elia_Martell,
+            :Oberyn_Martell .
+
+    :Drogon :guardianOf :Daenerys_Targaryen ;
+        :killed :Kraznys_mo_Nakloz,
+            :Pyat_Pree,
+            :Zalla ;
+        :siblingOf :Rhaegal,
+            :Viserion .
+
+    :Khal_Drogo :killed :Mago,
+            :Viserys_Targaryen ;
+        :killedBy :Daenerys_Targaryen ;
+        :marriedOrEngagedTo :Daenerys_Targaryen ;
+        :parentOf :Rhaego .
+
+    :Petyr_Baelish :killed :Dontos_Hollard,
+            :Joffrey_Baratheon,
+            :Lysa_Arryn ;
+        :killedBy :Arya_Stark ;
+        :marriedOrEngagedTo :Lysa_Arryn .
+
+    :Pyat_Pree :killed :Silk_King,
+            :Spice_King ;
+        :killedBy :Drogon,
+            :Rhaegal,
+            :Viserion .
+
+    :Randyll_Tarly :killedBy :Daenerys_Targaryen ;
+        :marriedOrEngagedTo :Melessa_Tarly ;
+        :parentOf :Dickon_Tarly,
+            :Samwell_Tarly,
+            :Talla_Tarly .
+
+    :Renly_Baratheon :killedBy :Melisandre ;
+        :marriedOrEngagedTo :Margaery_Tyrell ;
+        :siblingOf :Robert_Baratheon,
+            :Stannis_Baratheon .
+
+    :Rhaella_Targaryen :marriedOrEngagedTo :Aerys_II_Targaryen ;
+        :parentOf :Daenerys_Targaryen,
+            :Rhaegar_Targaryen,
+            :Viserys_Targaryen ;
+        :siblingOf :Aerys_II_Targaryen .
+
+    :Rickard_Stark :killedBy :Aerys_II_Targaryen ;
+        :parentOf :Benjen_Stark,
+            :Brandon_Stark,
+            :Eddard_Stark,
+            :Lyanna_Stark .
+
+    :The_Night_King :killed :Ned_Umber,
+            :Theon_Greyjoy,
+            :Three_Eyed_Raven,
+            :Viserion ;
+        :killedBy :Arya_Stark .
+
+    :Viserys_Targaryen :childOf :Aerys_II_Targaryen,
+            :Rhaella_Targaryen ;
+        :killedBy :Khal_Drogo ;
+        :siblingOf :Daenerys_Targaryen,
+            :Rhaegar_Targaryen .
+
+    :Brandon_Stark :childOf :Rickard_Stark ;
+        :killedBy :Aerys_II_Targaryen ;
+        :siblingOf :Benjen_Stark,
+            :Eddard_Stark,
+            :Lyanna_Stark .
+
+    :Elia_Martell :killedBy :Gregor_Clegane ;
+        :marriedOrEngagedTo :Rhaegar_Targaryen ;
+        :parentOf :Aegon_Targaryen,
+            :Rhaenys_Targaryen ;
+        :siblingOf :Doran_Martell,
+            :Oberyn_Martell .
+
+    :Grey_Wind :guardianOf :Robb_Stark ;
+        :killed :Rennick ;
+        :killedBy :Frey_Crossbowmen ;
+        :siblingOf :Ghost,
+            :Lady,
+            :Nymeria,
+            :Shaggydog,
+            :Summer .
+
+    :Lysa_Arryn :childOf :Hoster_Tully ;
+        :killed :Jon_Arryn ;
+        :killedBy :Petyr_Baelish ;
+        :marriedOrEngagedTo :Petyr_Baelish ;
+        :siblingOf :Catelyn_Tully,
+            :Edmure_Tully .
+
+    :Margaery_Tyrell :childOf :Mace_Tyrell ;
+        :killedBy :Cersei_Lannister ;
+        :marriedOrEngagedTo :Joffrey_Baratheon,
+            :Renly_Baratheon,
+            :Tommen_Baratheon ;
+        :siblingOf :Loras_Tyrell .
+
+    :Nymeria :guardianOf :Arya_Stark ;
+        :siblingOf :Ghost,
+            :Grey_Wind,
+            :Lady,
+            :Shaggydog,
+            :Summer .
+
+    :Ramsay_Snow :childOf :Roose_Bolton ;
+        :killed :Lady_Cerwyn,
+            :Master_Torturer,
+            :Medger_Cerwyn,
+            :Old_Woman,
+            :Osha,
+            :Rickon_Stark,
+            :Roose_Bolton,
+            :Unidentified_Cerwyn,
+            :Wun_Wun ;
+        :killedBy :Ramsay_Snow_s_Hounds ;
+        :marriedOrEngagedTo :Sansa_Stark .
+
+    :Rhaegal :guardianOf :Daenerys_Targaryen ;
+        :killed :Great_Master_1,
+            :Pyat_Pree ;
+        :killedBy :Euron_Greyjoy ;
+        :siblingOf :Drogon,
+            :Viserion .
+
+    :Stannis_Baratheon :killed :Gordy,
+            :Simpson ;
+        :killedBy :Brienne_of_Tarth ;
+        :marriedOrEngagedTo :Selyse_Baratheon ;
+        :parentOf :Shireen_Baratheon ;
+        :siblingOf :Renly_Baratheon,
+            :Robert_Baratheon .
+
+    :Theon_Greyjoy :childOf :Balon_Greyjoy ;
+        :killed :Bolton_Soldier,
+            :Harrag,
+            :Myranda,
+            :Rodrik_Cassel,
+            :Stiv ;
+        :killedBy :The_Night_King ;
+        :siblingOf :Yara_Greyjoy .
+
+    :Tywin_Lannister :killedBy :Tyrion_Lannister ;
+        :parentOf :Cersei_Lannister,
+            :Jaime_Lannister,
+            :Tyrion_Lannister ;
+        :servedBy :Gregor_Clegane .
+
+    :Euron_Greyjoy :killed :Balon_Greyjoy,
+            :Nymeria_Sand,
+            :Obara_Sand,
+            :Rhaegal ;
+        :killedBy :Jaime_Lannister ;
+        :siblingOf :Aeron_Greyjoy,
+            :Balon_Greyjoy .
+
+    :Ghost :guardianOf :Jon_Snow ;
+        :killed :Rast ;
+        :siblingOf :Grey_Wind,
+            :Lady,
+            :Nymeria,
+            :Shaggydog,
+            :Summer .
+
+    :Lady :guardianOf :Sansa_Stark ;
+        :killedBy :Eddard_Stark ;
+        :siblingOf :Ghost,
+            :Grey_Wind,
+            :Nymeria,
+            :Shaggydog,
+            :Summer .
+
+    :Myrcella_Baratheon :childOf :Cersei_Lannister,
+            :Jaime_Lannister,
+            :Robert_Baratheon ;
+        :killedBy :Ellaria_Sand ;
+        :marriedOrEngagedTo :Trystane_Martell ;
+        :siblingOf :Joffrey_Baratheon,
+            :Tommen_Baratheon .
+
+    :Oberyn_Martell :killedBy :Gregor_Clegane ;
+        :marriedOrEngagedTo :Ellaria_Sand ;
+        :parentOf :Nymeria_Sand,
+            :Obara_Sand,
+            :Tyene_Sand ;
+        :siblingOf :Doran_Martell,
+            :Elia_Martell .
+
+    :Shaggydog :guardianOf :Rickon_Stark ;
+        :killedBy :Smalljon_Umber ;
+        :siblingOf :Ghost,
+            :Grey_Wind,
+            :Lady,
+            :Nymeria,
+            :Summer .
+
+    :Summer :guardianOf :Bran_Stark ;
+        :killed :Catspaw_Assassin ;
+        :killedBy :Wights ;
+        :siblingOf :Ghost,
+            :Grey_Wind,
+            :Lady,
+            :Nymeria,
+            :Shaggydog .
+
+    :Viserion :guardianOf :Daenerys_Targaryen ;
+        :killed :Great_Master_1,
+            :Pyat_Pree ;
+        :killedBy :Arya_Stark,
+            :The_Night_King ;
+        :siblingOf :Drogon,
+            :Rhaegal .
+
+    :Walder_Frey :killedBy :Arya_Stark ;
+        :marriedOrEngagedTo :Joyeuse_Erenford,
+            :Kitty_Frey ;
+        :parentOf :Black_Walder_Rivers,
+            :Lothar_Frey,
+            :Roslin_Frey,
+            :Ryger_Rivers .
+
+    :Lyanna_Stark :childOf :Rickard_Stark ;
+        :killedBy :Jon_Snow ;
+        :marriedOrEngagedTo :Rhaegar_Targaryen,
+            :Robert_Baratheon ;
+        :parentOf :Jon_Snow ;
+        :siblingOf :Benjen_Stark,
+            :Brandon_Stark,
+            :Eddard_Stark .
+
+    :Rickon_Stark :childOf :Catelyn_Stark,
+            :Eddard_Stark ;
+        :guardedBy :Shaggydog ;
+        :killedBy :Ramsay_Snow ;
+        :siblingOf :Arya_Stark,
+            :Bran_Stark,
+            :Robb_Stark,
+            :Sansa_Stark .
+
+    :Samwell_Tarly :childOf :Melessa_Tarly,
+            :Randyll_Tarly ;
+        :killed :Thenn_Warg,
+            :White_Walker ;
+        :marriedOrEngagedTo :Gilly ;
+        :parentOf :Baby_Sam ;
+        :siblingOf :Dickon_Tarly,
+            :Talla_Tarly .
+
+    :Tommen_Baratheon :childOf :Cersei_Lannister,
+            :Jaime_Lannister,
+            :Robert_Baratheon ;
+        :killed :Tommen_Baratheon ;
+        :killedBy :Tommen_Baratheon ;
+        :marriedOrEngagedTo :Margaery_Tyrell ;
+        :siblingOf :Joffrey_Baratheon,
+            :Myrcella_Baratheon .
+
+    :Tyrion_Lannister :childOf :Tywin_Lannister ;
+        :killed :Shae,
+            :Tywin_Lannister ;
+        :marriedOrEngagedTo :Sansa_Stark ;
+        :serves :Daenerys_Targaryen ;
+        :siblingOf :Cersei_Lannister,
+            :Jaime_Lannister .
+
+    :Bran_Stark :childOf :Catelyn_Stark,
+            :Eddard_Stark ;
+        :guardedBy :Summer ;
+        :siblingOf :Arya_Stark,
+            :Rickon_Stark,
+            :Robb_Stark,
+            :Sansa_Stark .
+
+    :White_Walker :killed :Loboda ;
+        :killedBy :Jon_Snow,
+            :Samwell_Tarly .
+
+    :Aerys_II_Targaryen :killed :Brandon_Stark,
+            :Rickard_Stark ;
+        :killedBy :Jaime_Lannister ;
+        :marriedOrEngagedTo :Rhaella_Targaryen ;
+        :parentOf :Daenerys_Targaryen,
+            :Rhaegar_Targaryen,
+            :Viserys_Targaryen ;
+        :servedBy :Arthur_Dayne,
+            :Jaime_Lannister ;
+        :siblingOf :Rhaella_Targaryen .
+
+    :Catelyn_Stark :childOf :Hoster_Tully ;
+        :killed :Joyeuse_Erenford ;
+        :killedBy :Black_Walder_Rivers ;
+        :marriedOrEngagedTo :Brandon_Stark,
+            :Eddard_Stark ;
+        :parentOf :Arya_Stark,
+            :Bran_Stark,
+            :Rickon_Stark,
+            :Robb_Stark,
+            :Sansa_Stark ;
+        :siblingOf :Edmure_Tully,
+            :Lysa_Arryn .
+
+    :Gregor_Clegane :killed :Aegon_Targaryen,
+            :Elia_Martell,
+            :Faith_Militant,
+            :Hugh_of_the_Vale,
+            :King_s_Landing_Boaster,
+            :Missandei,
+            :Oberyn_Martell,
+            :Qyburn,
+            :Rhaenys_Targaryen ;
+        :killedBy :Sandor_Clegane ;
+        :serves :Cersei_Lannister,
+            :Tywin_Lannister .
+
+    :Rhaegar_Targaryen :childOf :Aerys_II_Targaryen,
+            :Rhaella_Targaryen ;
+        :killedBy :Robert_Baratheon ;
+        :marriedOrEngagedTo :Elia_Martell,
+            :Lyanna_Stark ;
+        :parentOf :Aegon_Targaryen,
+            :Jon_Snow,
+            :Rhaenys_Targaryen ;
+        :siblingOf :Daenerys_Targaryen,
+            :Viserys_Targaryen .
+
+    :Joffrey_Baratheon :childOf :Cersei_Lannister,
+            :Jaime_Lannister,
+            :Robert_Baratheon ;
+        :killed :Ros ;
+        :killedBy :Olenna_Tyrell,
+            :Petyr_Baelish ;
+        :marriedOrEngagedTo :Margaery_Tyrell,
+            :Sansa_Stark ;
+        :siblingOf :Myrcella_Baratheon,
+            :Tommen_Baratheon .
+
+    :Robert_Baratheon :guardedBy :Jon_Arryn ;
+        :killed :Rhaegar_Targaryen ;
+        :killedBy :Boar ;
+        :marriedOrEngagedTo :Cersei_Lannister,
+            :Lyanna_Stark ;
+        :parentOf :Joffrey_Baratheon,
+            :Myrcella_Baratheon,
+            :Tommen_Baratheon ;
+        :siblingOf :Renly_Baratheon,
+            :Stannis_Baratheon .
+
+    :Sandor_Clegane :killed :Beric_Dondarrion,
+            :Biter,
+            :Dying_Man,
+            :Frey_Soldier_2,
+            :Gatins,
+            :Gregor_Clegane,
+            :Kings_Landing_Rioter_1,
+            :Kings_Landing_Rioter_2,
+            :Kings_Landing_Rioter_3,
+            :Lem_Lemoncloak,
+            :Lowell,
+            :Morgan,
+            :Mycah,
+            :Riddell,
+            :Sandor_Clegane,
+            :Steve ;
+        :killedBy :Sandor_Clegane ;
+        :siblingOf :Gregor_Clegane .
+
+    :Sansa_Stark :childOf :Catelyn_Stark,
+            :Eddard_Stark ;
+        :guardedBy :Lady ;
+        :marriedOrEngagedTo :Joffrey_Baratheon,
+            :Ramsay_Snow,
+            :Tyrion_Lannister ;
+        :siblingOf :Arya_Stark,
+            :Bran_Stark,
+            :Rickon_Stark,
+            :Robb_Stark .
+
+    :Jaime_Lannister :childOf :Tywin_Lannister ;
+        :guardianOf :Aerys_II_Targaryen,
+            :Joffrey_Baratheon,
+            :Robert_Baratheon ;
+        :killed :Aerys_II_Targaryen,
+            :Alton_Lannister,
+            :Euron_Greyjoy,
+            :Jory_Cassel,
+            :Olenna_Tyrell,
+            :Torrhen_Karstark ;
+        :killedBy :Roof_collapse ;
+        :parentOf :Joffrey_Baratheon,
+            :Myrcella_Baratheon,
+            :Tommen_Baratheon ;
+        :siblingOf :Cersei_Lannister,
+            :Tyrion_Lannister .
+
+    :Robb_Stark :childOf :Catelyn_Stark,
+            :Eddard_Stark ;
+        :guardedBy :Grey_Wind ;
+        :killed :Rickard_Karstark,
+            :Wallen ;
+        :killedBy :Roose_Bolton ;
+        :marriedOrEngagedTo :Roslin_Frey,
+            :Talisa_Maegyr ;
+        :siblingOf :Arya_Stark,
+            :Bran_Stark,
+            :Rickon_Stark,
+            :Sansa_Stark .
+
+    :Cersei_Lannister :childOf :Tywin_Lannister ;
+        :killed :High_Sparrow,
+            :Kevan_Lannister,
+            :Lancel_Lannister,
+            :Loras_Tyrell,
+            :Mace_Tyrell,
+            :Margaery_Tyrell,
+            :Tyene_Sand ;
+        :killedBy :Roof_collapse ;
+        :marriedOrEngagedTo :Robert_Baratheon ;
+        :parentOf :Joffrey_Baratheon,
+            :Myrcella_Baratheon,
+            :Tommen_Baratheon ;
+        :siblingOf :Jaime_Lannister,
+            :Tyrion_Lannister .
+
+    :Arya_Stark :childOf :Catelyn_Stark,
+            :Eddard_Stark ;
+        :guardedBy :Nymeria ;
+        :killed :Black_Walder_Rivers,
+            :Frey_Soldier_1,
+            :Ghita,
+            :Lothar_Frey,
+            :Meryn_Trant,
+            :Petyr_Baelish,
+            :Polliver,
+            :Red_Keep_Stableboy,
+            :Rorge,
+            :The_Night_King,
+            :The_Waif,
+            :Viserion,
+            :Walder_Frey,
+            :White_Walker ;
+        :siblingOf :Bran_Stark,
+            :Rickon_Stark,
+            :Robb_Stark,
+            :Sansa_Stark .
+
+    :Eddard_Stark :childOf :Rickard_Stark ;
+        :guardedBy :Jon_Arryn ;
+        :guardianOf :Jon_Snow ;
+        :killed :Arthur_Dayne,
+            :Gerold_Hightower,
+            :Lady,
+            :Will ;
+        :killedBy :Ilyn_Payne ;
+        :marriedOrEngagedTo :Catelyn_Stark ;
+        :parentOf :Arya_Stark,
+            :Bran_Stark,
+            :Rickon_Stark,
+            :Robb_Stark,
+            :Sansa_Stark ;
+        :siblingOf :Benjen_Stark,
+            :Brandon_Stark,
+            :Lyanna_Stark .
+
+    :Jon_Snow :childOf :Lyanna_Stark,
+            :Rhaegar_Targaryen ;
+        :guardedBy :Eddard_Stark,
+            :Ghost ;
+        :killed :Alliser_Thorne,
+            :Bowen_Marsh,
+            :Daenerys_Targaryen,
+            :Janos_Slynt,
+            :Karl_Tanner,
+            :Lyanna_Stark,
+            :Mance_Rayder,
+            :Olly,
+            :Orell,
+            :Othell_Yarwyck,
+            :Othor,
+            :Qhorin_Halfhand,
+            :Styr,
+            :White_Walker ;
+        :killedBy :Alliser_Thorne,
+            :Bowen_Marsh,
+            :Olly,
+            :Othell_Yarwyck ;
+        :marriedOrEngagedTo :Ygritte .
+
+    :Daenerys_Targaryen :childOf :Aerys_II_Targaryen,
+            :Rhaella_Targaryen ;
+        :guardedBy :Drogon,
+            :Rhaegal,
+            :Viserion ;
+        :killed :Dickon_Tarly,
+            :Doreah,
+            :Dothraki_Bloodrider_1,
+            :Dothraki_Bloodrider_2,
+            :Eleanor,
+            :Eleanor_s_Daughter,
+            :Khal_Brozho,
+            :Khal_Drogo,
+            :Khal_Forzho,
+            :Khal_Moro,
+            :Khal_Qorro,
+            :Khal_Rhalko,
+            :Lord_Varys,
+            :Mirri_Maz_Duur,
+            :Randyll_Tarly,
+            :Xaro_Xhoan_Daxos ;
+        :killedBy :Jon_Snow ;
+        :marriedOrEngagedTo :Khal_Drogo ;
+        :parentOf :Rhaego ;
+        :servedBy :Barristan_Selmy,
+            :Daario_Naharis,
+            :Grey_Worm,
+            :Jorah_Mormont,
+            :Missandei,
+            :Tyrion_Lannister ;
+        :siblingOf :Rhaegar_Targaryen,
+            :Viserys_Targaryen .
+}
+
