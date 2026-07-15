@@ -13,6 +13,10 @@ __pycache__/
 *.py[cod]
 *.pyo
 
+# Python packaging
+*.egg-info/
+.eggs/
+
 # Virtual environments
 .venv/
 venv/
