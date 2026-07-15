@@ -1,0 +1,16 @@
+[project]
+name = "graph-of-thrones"
+version = "0.1.0"
+description = "Conversational assistant combining RAG and a Game of Thrones Knowledge Graph"
+requires-python = ">=3.14,<3.15"
+
+dependencies = [
+    "requests",
+    "rdflib",
+    "numpy",
+    "pandas",
+    "sentence-transformers",
+    "faiss-cpu",
+    "jupyter",
+    "python-dotenv",
+]
