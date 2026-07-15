@@ -12,4 +12,5 @@ dependencies = [
     "sentence-transformers",
     "faiss-cpu",
     "jupyter",
+    "python-dotenv",
 ]
