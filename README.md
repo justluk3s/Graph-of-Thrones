@@ -38,6 +38,8 @@ The Knowledge Graph is stored using RDF/TriG. It contains structured character-t
 - serves
 - servedBy
 - marriedOrEngagedTo
+- guardianOf
+- guardedBy
 
 ## Security testing
 
