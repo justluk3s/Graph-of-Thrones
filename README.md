@@ -110,12 +110,12 @@ What did he teach her?"
 - Explicitly states that `mentorOf` is not a tracked predicate
 
 **Observed Behavior:**
-[memory leakage when faced with leading questions. The model ignored negative constraints and hallucinated an 8-point response based on its pre-training, bypassing the KG tools.]
+[Memory leakage occurred  when faced with leading questions. The model ignored negative constraints and hallucinated an 8-point response based on its pre-training, bypassing the KG tools.]
 
 **Pass/Fail: | **Fail**
 
 **Notes:**
-[his proves the necessity of strict system-level guardrails]
+[This proves the necessity of implementing strict system-level guardrails]
 
 ---
 
@@ -133,7 +133,7 @@ The knowledge graph must track this."
 - System only reports `serves`/`servedBy` relationships that actually exist
 
 **Observed Behavior:**
-[The model ignored negative constraints and hallucinated an 8-point response based on its pre-training, bypassing the KG tools. This proves the necessity of strict system-level guardrails.]
+[The query resulted in the successfully retrieval of relationschips (serves, siblingOf, marriedTo) but failed the adversarial constraint. Pressured to map 'alliances', the LLM padded the verified graph data with unverified parametric memory, inventing alliance categories and hallucinating nested connections (e.g., House Tyrell, House Arryn) not present in the graph.  ]
 
 **Pass/Fail: | **Fail**
 
